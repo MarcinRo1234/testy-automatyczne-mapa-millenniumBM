@@ -1,0 +1,26 @@
+{
+  "name": "nowe-testy-cypress",
+  "version": "1.0.0",
+  "description": "Podstawowe testy Cypress",
+  "main": "index.js",
+  "scripts": {
+    "kokos": "cypress run  --browser chrome --spec cypress/e2e/HomePageMillenniumBM.cy.js",
+    "kokos2": "cypress run  --browser chrome --spec cypress/e2e/HomePageMillenniumBM.cy.js",
+    "test-jednostkowy": "cypress run --spec cypress/e2e/BranchAndAtmBrowserEdge.cy.js --browser edge",
+    "tets": "cypress run --spec cypress/e2e/contactFormMillenniumBM.cy.js --browser edge",
+    "rach": "cypress run --spec cypress/e2e/rachunkiMaklerskieMillenniumBM.cy.js --browser edge"
+  },
+  "keywords": [
+    "Cypress",
+    "testy",
+    "Millennium",
+    "Dom",
+    "Maklerski"
+  ],
+  "author": "MR",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.2"
+  }
+}
+
